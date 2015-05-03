@@ -62,8 +62,8 @@ $jobs = [
 	],
 ];
 ?>
-<div class="container well">
-<div class="jumbotron">
+<div class="container">
+<div class="jumbotron well">
 	<h2 class="row-grid">Experience</h2>
 	<div class="row-grid">
 	<?php foreach($jobs as $job) { ?>

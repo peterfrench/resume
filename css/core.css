@@ -53,6 +53,9 @@ blockquote i.fa { color: #ccc; }
 
 .jumbotron { background-color: inherit; padding: 0; }
 .jumbotron h2 { font-size: 63px; }
+@media (min-width: 768px) {
+	.jumbotron h2 { font-size: 51px; }
+}
 
 .push-down { margin-top: 60px; }
 
