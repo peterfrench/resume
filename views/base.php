@@ -29,7 +29,7 @@
 			'confession',
 			'skills',
 			'accounts',
-			'posts',
+			'tldr',
 		],
 	]); ?>
 
