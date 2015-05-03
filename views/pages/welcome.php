@@ -1,4 +1,4 @@
-<div class="valign"><div class="valign-inner">
+
 <div class="container">
 	<div class="jumbotron text-center">
 	<h1>Peter French</h1>
@@ -9,4 +9,3 @@
 	</h3>
 	</div>
 </div>
-</div></div>

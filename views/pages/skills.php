@@ -34,7 +34,6 @@ $systems = [
 	'debian' => '2',
 ];
 ?>
-<div class="valign"><div class="valign-inner">
 <div class="container">
 <div class="jumbotron text-center">
 	<h2>Skills</h2>
@@ -45,6 +44,5 @@ $systems = [
 	<?php foreach($systems as $tag => $strength) { ?>
 	<div class="tag tag-strength-<?= $strength; ?>"><?= $tag; ?></div>
 	<?php } ?>
-</div>
 </div>
 </div>

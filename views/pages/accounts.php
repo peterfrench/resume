@@ -32,7 +32,7 @@
 		],
 	];
 ?>
-<div class="valign"><div class="valign-inner"><div class="container">
+<div class="container">
 <div class="jumbotron">
 	<h2 class="text-center row-grid">Network</h2>
 	<?php
@@ -56,4 +56,4 @@
 	}
 	?>
 
-</div></div></div>
+</div>

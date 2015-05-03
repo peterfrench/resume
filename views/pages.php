@@ -18,9 +18,9 @@ foreach($pages as $page) {
 		$id = $page;
 	}
 ?>
-<section class="page" id="page-<?= $id ?>">
-<div class="valign"><div class="valign-inner">
+<section class="page valign" id="page-<?= $id ?>">
+<div class="valign-inner">
 	<?= $this->render('pages/'.$path,array_merge($params,['alt' => $alt])); ?>
 </section>
 <?php } ?>
-</div></div>
+</div>

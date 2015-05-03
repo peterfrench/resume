@@ -10,21 +10,6 @@
  * red			#d9534f
  * dark blue 	#011B3B
  */
-
-html, body { height: 100%; min-height: 100%}
-
-body { background-color: f9f9f9; }
-.pages { height: 100%; }
-.pages section {
-	width: 100%;
-	height: 100%;
-	min-height: 100%;
-	position: relative;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center center;
-}
 h1,h2,h3,h4 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 .tooltip { font-size: 16px; }
 .jumbotron h1 { font-size:100px; color: #f9f9f9; font-family: "Oswald",'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -51,11 +36,13 @@ blockquote i.fa { color: #ccc; }
     }
 }
 
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { *zoom: 1; }
 
-.valign { height: 100%; width: 100%; display: inline-flex; }
-.valign .valign-inner { width: 100%; margin: auto 0; }
+.valign { min-height: 100%; width: 100%; display: table; }
+.valign .valign-inner { height: 100% width: 100%; display: table-cell; vertical-align: middle; }
 
-.avatar { border-radius: 100%; border: 2px solid #333; width: 100%; }
+.avatar { border-radius: 100%; border: 2px solid #333; }
 
 .jumbotron { background-color: inherit; padding: 0; }
 .jumbotron h2 { font-size: 63px; }
@@ -64,20 +51,34 @@ blockquote i.fa { color: #ccc; }
 
 .well { border: none; background: #f9f9f9; padding: 30px; }
 
-.pages section#page-welcome { background-image: url('../images/welcome.jpg'); }
-.pages section#page-role-designer { background-color: #337ab7; color: #fff; }
-.pages section#page-role-developer { background-color: #f9f9f9;  }
-.pages section#page-role-marketer { background-color: #5cb85c; color: #fff; }
-.pages section#page-role-strategist { background-color: #d9534f; color: #111; }
-.pages section#page-role-strategist blockquote i.fa { color: #222; }
-.pages section#page-role-strategist blockquote { border-color: #444; }
-.pages section#page-confession { background-image: url('../images/skills.jpg'); }
-.pages section#page-skills { background-color: #011B3B; color: #f9f9f9; }
-.pages section#page-accounts { background-color: #f9f9f9; }
-.pages section#page-posts { background-image: url('../images/posts.jpg'); }
 
-.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-.clearfix { *zoom: 1; }
+html, body { height: 100%; min-height: 100%}
+
+body { background-color: f9f9f9; }
+.pages { height: 100%; }
+.pages section {
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+.pages section .container { margin-top: 20px; }
+
+#page-welcome { background-image: url('../images/welcome.jpg'); }
+#page-role-designer { background-color: #337ab7; color: #fff; }
+#page-role-developer { background-color: #f9f9f9;  }
+#page-role-marketer { background-color: #5cb85c; color: #fff; }
+#page-role-strategist { background-color: #d9534f; color: #111; }
+#page-role-strategist blockquote i.fa { color: #222; }
+#page-role-strategist blockquote { border-color: #444; }
+#page-confession { background-image: url('../images/skills.jpg'); }
+#page-skills { background-color: #011B3B; color: #f9f9f9; }
+#page-accounts { background-color: #f9f9f9; }
+#page-tldr { background-image: url('../images/posts.jpg'); }
+
+.btn-callout { color: #333; font-size: 30px; white-space: normal; }
+.btn-callout:hover { color: #f9f9f9; background: #333; }
 
 .tag { display: inline-block; padding: 0 20px; }
 .tag.tag-strength-4 { font-size: 50px; }
