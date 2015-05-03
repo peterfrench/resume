@@ -28,6 +28,7 @@
 			['path'=>'role','params'=>['name'=>'strategist']],
 			'confession',
 			'skills',
+			'experience',
 			'accounts',
 			'tldr',
 		],

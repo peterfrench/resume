@@ -37,7 +37,7 @@ $systems = [
 ?>
 <div class="container">
 <div class="jumbotron text-center">
-	<h2>Skills</h2>
+	<h2 data-toggle="tooltip" data-placement="top" title="Look at dem skillz!!">Skills</h2>
 	<?php foreach($programming as $tag => $strength) { ?>
 	<div class="tag tag-strength-<?= $strength; ?>"><?= $tag; ?></div>
 	<?php } ?>

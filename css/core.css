@@ -70,7 +70,7 @@ body { background-color: f9f9f9; }
 	background-size: cover;
 	background-position: center center;
 }
-.pages section .container { margin-top: 20px; }
+.pages section .container { margin-top: 40px; margin-bottom: 40px; }
 
 #page-welcome { background-image: url('../images/welcome.jpg'); }
 #page-role-designer { background-color: #337ab7; color: #fff; }
@@ -81,6 +81,7 @@ body { background-color: f9f9f9; }
 #page-role-strategist blockquote { border-color: #444; }
 #page-confession { background-image: url('../images/skills.jpg'); }
 #page-skills { background-color: #011B3B; color: #f9f9f9; }
+#page-experience { background-image: url('../images/experience.jpg'); }
 #page-accounts { background-color: #f9f9f9; }
 #page-tldr { background-image: url('../images/posts.jpg'); }
 
