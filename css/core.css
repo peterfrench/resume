@@ -1,0 +1,86 @@
+
+/**
+ * Core
+ *
+ * ==Colors
+ * blue 			#337ab7
+ * light blue 	#5bc0de
+ * orange 		#f0ad4e
+ * green			#5cb85c
+ * red			#d9534f
+ * dark blue 	#011B3B
+ */
+
+html, body { height: 100%; min-height: 100%}
+
+body { background-color: f9f9f9; }
+.pages { height: 100%; }
+.pages section {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+h1,h2,h3,h4 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.tooltip { font-size: 16px; }
+.jumbotron h1 { font-size:100px; color: #f9f9f9; font-family: "Oswald",'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+blockquote i.fa { color: #ccc; }
+
+.row-grid + .row-grid { margin-top: 40px; }
+.row.row-grid [class*="col-"] + [class*="col-"] {
+    margin-top: 40px;
+}
+@media (min-width: 1200px) {
+    .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 992px) {
+    .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px) {
+    .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+        margin-top: 0;
+    }
+}
+
+
+.valign { height: 100%; width: 100%; display: inline-flex; }
+.valign .valign-inner { width: 100%; margin: auto 0; }
+
+.avatar { border-radius: 100%; border: 2px solid #333; width: 100%; }
+
+.jumbotron { background-color: inherit; padding: 0; }
+.jumbotron h2 { font-size: 63px; }
+
+.push-down { margin-top: 60px; }
+
+.well { border: none; background: #f9f9f9; padding: 30px; }
+
+.pages section#page-welcome { background-image: url('../images/welcome.jpg'); }
+.pages section#page-role-designer { background-color: #337ab7; color: #fff; }
+.pages section#page-role-developer { background-color: #f9f9f9;  }
+.pages section#page-role-marketer { background-color: #5cb85c; color: #fff; }
+.pages section#page-role-strategist { background-color: #d9534f; color: #111; }
+.pages section#page-role-strategist blockquote i.fa { color: #222; }
+.pages section#page-role-strategist blockquote { border-color: #444; }
+.pages section#page-confession { background-image: url('../images/skills.jpg'); }
+.pages section#page-skills { background-color: #011B3B; color: #f9f9f9; }
+.pages section#page-accounts { background-color: #f9f9f9; }
+.pages section#page-posts { background-image: url('../images/posts.jpg'); }
+
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { *zoom: 1; }
+
+.tag { display: inline-block; padding: 0 20px; }
+.tag.tag-strength-4 { font-size: 50px; }
+.tag.tag-strength-3 { font-size: 40px; }
+.tag.tag-strength-2 { font-size: 30px; }
+.tag.tag-strength-1 { font-size: 20px; }
