@@ -4,8 +4,8 @@
 	<h1>Peter French</h1>
 	<p>Resume, Pizza &amp; More!</p>
 
-	<h3 class="push-down well">
+	<a href="#page-role-designer" id="start" class="btn btn-callout btn-block push-down well">
 		<i class="fa fa-arrow-circle-o-down fa-lg"></i> Meet the Team behind <strong>Peter-French.com</strong>
-	</h3>
+	</a>
 	</div>
 </div>
