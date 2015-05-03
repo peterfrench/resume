@@ -1,7 +1,7 @@
 
 <div class="container">
 	<div class="jumbotron text-center">
-	<h1><span>P</span>eter <span>F</span>rench</h1>
+	<h1>Peter<span>French</span></h1>
 	<p>Resume, Pizza &amp; More!</p>
 
 	<a href="#page-role-designer" id="start" class="btn btn-callout btn-block push-down well">
