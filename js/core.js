@@ -19,7 +19,10 @@ $('#start').bind('click', function(){
 // When the browser's address bar comes back into view, it changes the value of the window height.
 var setPageHeights = function() {
 	// Resize all pages
-	$('.page').css({ height: $(this).height()+'px'});
+	$('.page').css({
+		height: $(this).height()+'px',
+		minHeight: $(this).height()+'px',
+	});
 }
 if(isMobile())
 	setPageHeights();
