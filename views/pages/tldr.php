@@ -7,6 +7,6 @@
 	  <p><i class="fa fa-quote-left"></i> What did I just read? <i class="fa fa-quote-right"></i></p>
 	  <footer>You</footer>
 	</blockquote>
-	<p class="text-right">All the code for this site is available on <a href="https://github.com/peterfrench/resume-site" target="_blank">Github</a>.
+	<p class="text-right">All the code for this site is available on <a href="https://github.com/peterfrench/resume" target="_blank">Github</a>.
 </div>
 </div>
