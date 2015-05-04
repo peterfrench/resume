@@ -56,6 +56,9 @@ blockquote i.fa { color: #ccc; }
 @media (max-width: 768px) {
 	.jumbotron h2 { font-size: 51px; }
 }
+@media(max-width: 480px) {
+	.jumbotron h2 { font-size: 40px; }
+}
 
 .push-down { margin-top: 60px; }
 
