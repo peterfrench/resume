@@ -14,7 +14,6 @@
 </head>
 
 <body>
-
 	<?php echo $this->render('header'); ?>
 
 	<?php echo $this->render('navigation'); ?>
@@ -39,5 +38,6 @@
 <script type="text/javascript" src="/vendor/twitter/bootstrap/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/core.js"></script>
 
+<div id="is-mobile"></div>
 </body>
 </html>
