@@ -1,16 +1,22 @@
 <?php
 $jobs = [
 	[
-		'title' => 'Programmer Analyst II',
-		'company' => 'Good Samaritan Society',
-		'dates' => 'February 2015 - Present',
-		'url' => 'http://good-sam.com',
+		'title' => 'Web Development Engineer',
+		'company' => 'Amazon Web Services',
+		'dates' => 'September 2015 - Present',
+		'url' => 'http://aws.amazon.com',
 	],
 	[
 		'title' => 'Owner, Lead Developer',
 		'company' => 'EdSolio',
 		'dates' => 'July 2010 - Present',
 		'url' => 'https://edsolio.com',
+	],
+	[
+		'title' => 'Programmer Analyst II',
+		'company' => 'Good Samaritan Society',
+		'dates' => 'February 2015 - September 2015',
+		'url' => 'http://good-sam.com',
 	],
 	[
 		'title' => 'Senior Developer',

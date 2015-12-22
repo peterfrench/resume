@@ -19,6 +19,7 @@ $programming = [
 	'unit testing' => 2,
 	'ajax' => 4,
 	'xml' => 2,
+	'angularjs' => 3,
 	'java' => 1,
 	'mvvm' => 2,
 	'javascript' => 4,
